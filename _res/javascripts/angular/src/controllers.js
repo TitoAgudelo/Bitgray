@@ -2,9 +2,12 @@
 
 var ctrls =  angular.module('bitgray.controllers', []);
 
-ctrls.controller('AppCtrl', function ($scope, $http){
-
-});
+ctrls.controller('AbilitiesCtrl', ['$scope', '$http',
+  function ($scope, $http) {
+    $http.get('stubs/abilities.json').success(function(data) {
+    	$scope.abilities = data;
+	});
+}]);
 
 // ctrls.controller('ShotListCtrl', function ($scope, PagedResult, $routeParams){
 // 	var list = $routeParams.list;

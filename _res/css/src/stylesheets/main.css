@@ -114,3 +114,26 @@ body a, body p, body span, body h6, body h5, body h4, body h3, body h2, body h1 
 .test {
   color: red;
 }
+
+/* line 1, ../sass/sections/menu.sass */
+.menu {
+  margin-top: 5rem;
+}
+/* line 5, ../sass/sections/menu.sass */
+.menu ul li {
+  text-align: center;
+  background-color: #D96055;
+  cursor: pointer;
+  padding: 0;
+}
+/* line 11, ../sass/sections/menu.sass */
+.menu ul li:hover {
+  background-color: #EB9552;
+}
+/* line 14, ../sass/sections/menu.sass */
+.menu ul li a {
+  color: white;
+  font-weight: bold;
+  padding: 2rem;
+  display: block;
+}

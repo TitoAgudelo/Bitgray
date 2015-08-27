@@ -1,0 +1,79 @@
+[
+	{
+		"abilityId": "1",
+		"abilityName": "Html5",
+		"abilityPercentage": "82",
+		"abilityMonths": "10",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "2",
+		"abilityName": "Django",
+		"abilityPercentage": "75",
+		"abilityMonths": "2",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "3",
+		"abilityName": "Css3",
+		"abilityPercentage": "75",
+		"abilityMonths": "10",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "4",
+		"abilityName": "MySQL",
+		"abilityPercentage": "65",
+		"abilityMonths": "10",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "5",
+		"abilityName": "Ruby",
+		"abilityPercentage": "56",
+		"abilityMonths": "10",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "6",
+		"abilityName": "Rails",
+		"abilityPercentage": "51",
+		"abilityMonths": "10",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "7",
+		"abilityName": "Git",
+		"abilityPercentage": "42",
+		"abilityMonths": "5",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "8",
+		"abilityName": "Bitbucket",
+		"abilityPercentage": "41",
+		"abilityMonths": "5",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "9",
+		"abilityName": "Joomla",
+		"abilityPercentage": "40",
+		"abilityMonths": "3",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "10",
+		"abilityName": "Javascript",
+		"abilityPercentage": "39",
+		"abilityMonths": "5",
+		"abilityIcon": ""
+	},
+	{
+		"abilityId": "11",
+		"abilityName": "Jquery",
+		"abilityPercentage": "25",
+		"abilityMonths": "3",
+		"abilityIcon": ""
+	}
+]

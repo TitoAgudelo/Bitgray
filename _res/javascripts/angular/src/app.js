@@ -10,6 +10,10 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
 		.when("/", {
     		templateUrl: "/partials/home.html"
 		})
+		.when("/abilities", {
+    		controller: "AbilitiesCtrl",
+    		templateUrl: "/partials/abilities.html"
+		})
     	.otherwise({
     		redirectTo: "/"
     	});
