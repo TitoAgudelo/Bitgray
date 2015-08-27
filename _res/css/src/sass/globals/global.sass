@@ -1,0 +1,31 @@
+html
+	-webkit-font-smoothing: antialiased
+	
+body
+	background-image: url('../../../img/background.png')
+	background-repeat: repeat-y
+	background-size: 100%
+
+	a, p, span, h6, h5, h4, h3, h2, h1
+		font-family: 'Open Sans', sans-serif
+
+.clearfix:before, .clearfix:after
+	display: table
+	line-height: 0
+	content: ""
+
+.top-bar-section
+	li:not(.has-form)
+		a:not(.button)
+			background-color: white
+			color: #333
+			cursor: pointer
+
+			&:hover
+				background-color: #e55e3a
+				color: white
+
+
+		a.active
+			background-color: #54bc75
+			color: white
