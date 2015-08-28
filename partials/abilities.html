@@ -1,7 +1,23 @@
-<div class="row">
-	<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
-		<li ng-repeat="ability in abilities">
-			
-		</li>
-	</ul>
+<div class="row ability">
+	<div class="large-8 medium-10 small-12 large-centered medium-centered columns">
+		<div id="abilities-title">
+			<span>Lenguajes</span>
+			<span class="right btn-add">
+				<i class="fa fa-plus"></i>
+				<span>Agregar Habilidad</span>
+			</span>
+		</div>
+	</div>
+	<div class="large-8 medium-10 small-12 large-centered medium-centered columns">
+		<ul id="abilities-list" class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
+			<li ng-repeat="ability in abilities" ng-style="{'background-color': ability.color}">
+				<div class="right">
+					<i class="fa fa-pencil-square-o"></i>
+					<i class="fa fa-trash"></i>
+				</div>
+				<h1 class="ability-name">{{ability.abilityName}}</h1>
+				<p>{{ability.abilityPercentage}}%</p>
+			</li>
+		</ul>
+	</div>
 </div>

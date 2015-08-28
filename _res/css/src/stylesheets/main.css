@@ -111,8 +111,48 @@ body a, body p, body span, body h6, body h5, body h4, body h3, body h2, body h1 
 }
 
 /* line 1, ../sass/sections/abilities.sass */
-.test {
-  color: red;
+.ability {
+  margin-top: 2rem;
+}
+/* line 4, ../sass/sections/abilities.sass */
+.ability #abilities-title {
+  margin: 2.5rem 0;
+}
+/* line 7, ../sass/sections/abilities.sass */
+.ability #abilities-title .btn-add {
+  background-color: #726868;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 14, ../sass/sections/abilities.sass */
+.ability #abilities-title .btn-add:hover {
+  background-color: #897976;
+}
+/* line 17, ../sass/sections/abilities.sass */
+.ability #abilities-title .btn-add .fa {
+  color: white;
+  background-color: #6b6262;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* line 24, ../sass/sections/abilities.sass */
+.ability #abilities-title .btn-add span {
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+}
+/* line 31, ../sass/sections/abilities.sass */
+.ability #abilities-list li {
+  padding: 1rem;
+}
+/* line 34, ../sass/sections/abilities.sass */
+.ability #abilities-list .ability-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 
 /* line 1, ../sass/sections/menu.sass */
