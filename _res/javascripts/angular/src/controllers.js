@@ -10,22 +10,21 @@ ctrls.controller('AbilitiesCtrl', ['$scope', '$http',
 
 	$scope.addAbility =  function () {
 		$http.get('stubs/newAbilities.json').success(function(data) {
-    	var item = data[Math.floor(Math.random()*data.length)];
-    	$scope.abilities.push(item);
-	});
+    		var item = data[Math.floor(Math.random()*data.length)];
+    		$scope.abilities.push(item);
+		});
 	};
 }]);
 
-// ctrls.controller('ShotListCtrl', function ($scope, PagedResult, $routeParams){
-// 	var list = $routeParams.list;
+ctrls.controller('FormCtrl', ['$scope', '$http',
+  function ($scope, $http) {
 
-// 	$scope.list = new PagedResult('shots', list, 'shots').loadNextPage();
+  	$scope.validate = function() {
 
-// });
+  	};
+}]);
 
-// ctrls.controller('ShotCtrl', function ($scope, $http, $routeParams , dribbble, PagedResult){
-// 	var id = $routeParams.id;
+ctrls.controller('ClockCtrl', ['$scope', '$http',
+  function ($scope, $http) {
 
-// 	$scope.shot = dribbble.shot(id)
-// 	$scope.comments = new PagedResult('comments', id, 'comments').loadNextPage();
-// });
+}]);

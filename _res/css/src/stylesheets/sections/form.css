@@ -1,0 +1,44 @@
+/* line 1, ../../sass/sections/form.sass */
+.form-bg {
+  background-image: url(../../../images/banner.jpg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+/* line 8, ../../sass/sections/form.sass */
+.form-bg .form-container {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 2rem 1.5rem 0.3rem;
+}
+/* line 14, ../../sass/sections/form.sass */
+.form-bg .form-container #form-title p {
+  color: #b6b6b6;
+  font-size: 12px;
+  margin-top: 12px;
+  text-align: center;
+}
+/* line 20, ../../sass/sections/form.sass */
+.form-bg .form-container .form-field {
+  position: relative;
+}
+/* line 23, ../../sass/sections/form.sass */
+.form-bg .form-container .form-field i {
+  color: #b6b6b6;
+  position: absolute;
+  padding: 6px 10px;
+  margin: 5px;
+  border-right: 2px solid rgba(192, 192, 192, 0.5);
+  width: 37px;
+}
+/* line 31, ../../sass/sections/form.sass */
+.form-bg .form-container .form-field input {
+  padding-left: 3rem;
+}
+/* line 34, ../../sass/sections/form.sass */
+.form-bg .form-container a.button {
+  padding: 0.7rem 2rem;
+  font-size: 12px;
+  font-weight: bold;
+}

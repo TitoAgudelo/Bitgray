@@ -14,6 +14,10 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
     		controller: "AbilitiesCtrl",
     		templateUrl: "/partials/abilities.html"
 		})
+		.when("/form", {
+    		controller: "FormCtrl",
+    		templateUrl: "/partials/form.html"
+		})
     	.otherwise({
     		redirectTo: "/"
     	});

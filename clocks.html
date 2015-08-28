@@ -18,17 +18,22 @@
 			</ul>
 		</nav>
 	</header>
-
-	<div ng-view></div>
-
-	<!-- import angularJS library -->
-	<script type="text/javascript" src="_res/javascripts/angular/import/angular.js"></script>
-	<script type="text/javascript" src="_res/javascripts/angular/import/angular-route.js"></script>
-
-	<!-- import angularJS project -->
-	<script type="text/javascript" src="_res/javascripts/angular/src/app.js"></script>
-	<script type="text/javascript" src="_res/javascripts/angular/src/controllers.js"></script>
-
+	<div class="clock-container">
+		<div class="row">
+			<div class="large-3 medium-4 small-12 columns">
+				<p>Hour</p>
+				<input class="knob hour" data-targetValue="10" data-fgcolor="#2C3E50">
+			</div>
+			<div class="large-3 medium-4 small-12 columns">
+				<p>Minutes</p>
+				<input class="knob minute" data-targetValue="20" data-fgcolor="#FF5B5B">
+			</div>
+			<div class="large-3 medium-4 small-12 columns">
+				<p>Seconds</p>
+				<input class="knob second" data-targetValue="15" data-fgcolor="#FF974F">
+			</div>
+		</div>
+	</div>
 	<!-- import foundation zurb -->
 	<script src="_res/bower_components/jquery/dist/jquery.js"></script>
 	<script src="_res/foundation/js/foundation/foundation.js"></script>
@@ -36,5 +41,6 @@
 
   	<!-- Jquery Knob -->
 	<script type="text/javascript" src="_res/javascripts/jqueryKnob/jquery.knob.js"></script>
+	<script type="text/javascript" src="_res/javascripts/jqueryKnob/clock.js"></script>
 </body>
 </html>
