@@ -37,6 +37,12 @@
   padding-left: 3rem;
 }
 /* line 34, ../../sass/sections/form.sass */
+.form-bg .form-container .form-field span {
+  font-size: 12px;
+  margin-bottom: 1rem;
+  display: block;
+}
+/* line 39, ../../sass/sections/form.sass */
 .form-bg .form-container a.button {
   padding: 0.7rem 2rem;
   font-size: 12px;

@@ -255,6 +255,12 @@ body a, body p, body span, body h6, body h5, body h4, body h3, body h2, body h1 
   padding-left: 3rem;
 }
 /* line 34, ../sass/sections/form.sass */
+.form-bg .form-container .form-field span {
+  font-size: 12px;
+  margin-bottom: 1rem;
+  display: block;
+}
+/* line 39, ../sass/sections/form.sass */
 .form-bg .form-container a.button {
   padding: 0.7rem 2rem;
   font-size: 12px;
