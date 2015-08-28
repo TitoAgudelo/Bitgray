@@ -1,0 +1,34 @@
+[
+	{
+		"abilityId": "1",
+		"abilityName": "EmberJS",
+		"abilityPercentage": "70",
+		"abilityMonths": "51",
+		"icon": "_res/images/svg/ember.svg",
+		"color": "#2C3E50"
+	},
+	{
+		"abilityId": "2",
+		"abilityName": "Compass",
+		"abilityPercentage": "10",
+		"abilityMonths": "51",
+		"icon": "_res/images/svg/compass.svg",
+		"color": "#E74C3C"
+	},
+	{
+		"abilityId": "3",
+		"abilityName": "NodeJS",
+		"abilityPercentage": "50",
+		"abilityMonths": "51",
+		"icon": "_res/images/svg/nodejs.svg",
+		"color": "#2980B9"
+	},
+	{
+		"abilityId": "4",
+		"abilityName": "Apple",
+		"abilityPercentage": "70",
+		"abilityMonths": "51",
+		"icon": "_res/images/svg/apple.svg",
+		"color": "#332532"
+	}
+]

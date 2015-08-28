@@ -4,7 +4,7 @@
 		"abilityName": "Html5",
 		"abilityPercentage": "82",
 		"abilityMonths": "10",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/html5.svg",
 		"color": "#2C3E50"
 	},
 	{
@@ -12,7 +12,7 @@
 		"abilityName": "Django",
 		"abilityPercentage": "75",
 		"abilityMonths": "2",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/django.svg",
 		"color": "#E74C3C"
 	},
 	{
@@ -20,7 +20,7 @@
 		"abilityName": "Css3",
 		"abilityPercentage": "75",
 		"abilityMonths": "10",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/css3.svg",
 		"color": "#2980B9"
 	},
 	{
@@ -28,7 +28,7 @@
 		"abilityName": "MySQL",
 		"abilityPercentage": "65",
 		"abilityMonths": "10",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/mysql.svg",
 		"color": "#332532"
 	},
 	{
@@ -36,7 +36,7 @@
 		"abilityName": "Ruby",
 		"abilityPercentage": "56",
 		"abilityMonths": "10",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/ruby_rough.svg",
 		"color": "#F77A52"
 	},
 	{
@@ -44,7 +44,7 @@
 		"abilityName": "Rails",
 		"abilityPercentage": "51",
 		"abilityMonths": "10",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/ror.svg",
 		"color": "#A49A87"
 	},
 	{
@@ -52,7 +52,7 @@
 		"abilityName": "Git",
 		"abilityPercentage": "42",
 		"abilityMonths": "5",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/git.svg",
 		"color": "#644D52"
 	},
 	{
@@ -60,7 +60,7 @@
 		"abilityName": "Bitbucket",
 		"abilityPercentage": "41",
 		"abilityMonths": "5",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/bitbucket.svg",
 		"color": "#962D3E"
 	},
 	{
@@ -68,7 +68,7 @@
 		"abilityName": "Joomla",
 		"abilityPercentage": "40",
 		"abilityMonths": "3",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/joomla.svg",
 		"color": "#343642"
 	},
 	{
@@ -76,7 +76,7 @@
 		"abilityName": "Javascript",
 		"abilityPercentage": "39",
 		"abilityMonths": "5",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/javascript_1.svg",
 		"color": "#348899"
 	},
 	{
@@ -84,7 +84,7 @@
 		"abilityName": "Jquery",
 		"abilityPercentage": "25",
 		"abilityMonths": "3",
-		"abilityIcon": "",
+		"icon": "_res/images/svg/jquery_logo.svg",
 		"color": "#A7BD5B"
 	}
 ]

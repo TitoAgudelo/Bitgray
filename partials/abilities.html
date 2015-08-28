@@ -2,21 +2,25 @@
 	<div class="large-8 medium-10 small-12 large-centered medium-centered columns">
 		<div id="abilities-title">
 			<span>Lenguajes</span>
-			<span class="right btn-add">
+			<span class="right btn-add" ng-click="addAbility()">
 				<i class="fa fa-plus"></i>
 				<span>Agregar Habilidad</span>
 			</span>
 		</div>
 	</div>
-	<div class="large-8 medium-10 small-12 large-centered medium-centered columns">
+	<div class="large-10 medium-10 small-12 large-centered medium-centered columns">
 		<ul id="abilities-list" class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
-			<li ng-repeat="ability in abilities" ng-style="{'background-color': ability.color}">
-				<div class="right">
+			<li ng-repeat="ability in abilities">
+				<div class="ability-icon" ng-style="{'background-image': 'url({{ability.icon}})'}"></div>
+				<div class="ability-tool">
 					<i class="fa fa-pencil-square-o"></i>
 					<i class="fa fa-trash"></i>
 				</div>
-				<h1 class="ability-name">{{ability.abilityName}}</h1>
-				<p>{{ability.abilityPercentage}}%</p>
+				<div class="ability-container" ng-style="{'background-color': ability.color}">	
+					<h1 class="ability-name">{{ability.abilityName}}</h1>
+					<p>{{ability.abilityPercentage}}%</p>
+					<p class="ability-time">{{ability.abilityMonths}} Meses de experiencia</p>
+				</div>
 			</li>
 		</ul>
 	</div>

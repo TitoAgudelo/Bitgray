@@ -131,6 +131,10 @@ body a, body p, body span, body h6, body h5, body h4, body h3, body h2, body h1 
   background-color: #897976;
 }
 /* line 17, ../sass/sections/abilities.sass */
+.ability #abilities-title .btn-add:hover .fa {
+  background-color: #726868;
+}
+/* line 20, ../sass/sections/abilities.sass */
 .ability #abilities-title .btn-add .fa {
   color: white;
   background-color: #6b6262;
@@ -138,21 +142,55 @@ body a, body p, body span, body h6, body h5, body h4, body h3, body h2, body h1 
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-/* line 24, ../sass/sections/abilities.sass */
+/* line 27, ../sass/sections/abilities.sass */
 .ability #abilities-title .btn-add span {
   padding: 10px;
   color: white;
   font-size: 12px;
 }
-/* line 31, ../sass/sections/abilities.sass */
-.ability #abilities-list li {
-  padding: 1rem;
-}
 /* line 34, ../sass/sections/abilities.sass */
-.ability #abilities-list .ability-name {
+.ability #abilities-list * {
+  color: white;
+}
+/* line 37, ../sass/sections/abilities.sass */
+.ability #abilities-list li {
+  position: relative;
+}
+/* line 40, ../sass/sections/abilities.sass */
+.ability #abilities-list .ability-icon {
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 90% 60%;
+  position: absolute;
+  width: 92%;
+  height: 86%;
+  opacity: 0.5;
+}
+/* line 49, ../sass/sections/abilities.sass */
+.ability #abilities-list .ability-tool {
+  position: absolute;
+  right: 8%;
+  top: 5%;
+}
+/* line 54, ../sass/sections/abilities.sass */
+.ability #abilities-list .ability-tool i {
+  font-size: 12px;
+  opacity: 0.5;
+}
+/* line 58, ../sass/sections/abilities.sass */
+.ability #abilities-list .ability-container {
+  padding: 2rem 1rem 1.5rem;
+}
+/* line 61, ../sass/sections/abilities.sass */
+.ability #abilities-list .ability-container .ability-name {
   font-size: 24px;
   font-weight: bold;
-  color: white;
+  margin-bottom: 1rem;
+}
+/* line 66, ../sass/sections/abilities.sass */
+.ability #abilities-list .ability-container .ability-time {
+  font-size: 12px;
+  margin-top: 0.5rem;
 }
 
 /* line 1, ../sass/sections/menu.sass */
