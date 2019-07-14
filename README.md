@@ -25,7 +25,7 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `python -m SimpleHTTPServer 8080`
-* Visit your app at [http://localhost:8080](http://localhost:8080). for abilityes and form validation
+* Visit your app at [http://localhost:8080](http://localhost:8080). for abilities and form validation
 * Visit clocks.html and open for review a clocks with jquery knob
 
 ### Code Generators
